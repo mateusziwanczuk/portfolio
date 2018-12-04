@@ -20,12 +20,12 @@ body {
 }
 
 .hero {
-    height: 100vh;
+    height: 95vh;
 }
 
 .hero__img {
     width: 80%;
-    margin-top: 7.7%;
+    margin-top: 91px;
     margin-left: 250px;
 	border-radius: 0px 30px 30px 0px;
 }
@@ -41,14 +41,12 @@ p {
 /*********************************************************************************/
 
 .menu {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
 	background: #ececec;
 	position: fixed;
 	height: 100vh;
 	width: 250px;
 	text-align: center;
+	margin-top: 220px;
 }
 
 .menu__logo {
@@ -112,6 +110,7 @@ p {
 	background: #fcfcfc;
 	text-align: center;
 	margin-left: 250px;
+	padding: 5%;
 }
 
 .main__header {
@@ -132,7 +131,6 @@ p {
 }
 
 .about__me p {
-	margin: 0 5%;
 	text-align: justify;
 }
 
