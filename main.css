@@ -112,7 +112,8 @@ p {
 	background: #fcfcfc;
 	text-align: center;
 	margin-left: 250px;
-	padding: 2%;
+	margin-bottom: 2px;
+	padding: 4% 2%;
 }
 
 .main__header {
@@ -138,11 +139,6 @@ p {
 
 /********************************* SKILLS ************************************/
 
-.skills__header {
-	margin: 1ch; 
-	font-weight: 100;
-}
-
 .skills {
     display: inline-flex;
     flex-wrap: wrap;
@@ -152,6 +148,11 @@ p {
     margin: 1ch 1ch 1ch 2ch; 
     padding: 1.5vw 0;
     width: 9vw;
+}
+
+.skills__header {
+	margin: 3ch auto 1ch; 
+	font-weight: 100;
 }
 
 .skills:hover {
