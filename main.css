@@ -1,6 +1,7 @@
 * {
 	margin: 0;
 	padding: 0;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -20,7 +21,7 @@ body {
 }
 
 .hero {
-    height: 95vh;
+    height: 100vh;
 }
 
 .hero__img {
@@ -32,6 +33,7 @@ body {
 
 p {
 	line-height: 180%;
+	font-size: 1.1rem;
 }
 
 /*********************************************************************************/
@@ -110,7 +112,7 @@ p {
 	background: #fcfcfc;
 	text-align: center;
 	margin-left: 250px;
-	padding: 5%;
+	padding: 2%;
 }
 
 .main__header {
@@ -134,6 +136,74 @@ p {
 	text-align: justify;
 }
 
+/********************************* SKILLS ************************************/
+
+.skills__header {
+	margin: 1ch; 
+	font-weight: 100;
+}
+
+.skills {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border: 1px solid rgba(204, 204, 204, 0.932);
+    border-radius: 10px;
+    margin: 1ch 1ch 1ch 2ch; 
+    padding: 1.5vw 0;
+    width: 9vw;
+}
+
+.skills:hover {
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.skills__flag {
+    border-radius: 5px;
+    box-shadow: 3px 3px 20px -5px rgba(0, 0, 0, 0.6); 
+    height: 1.5rem;
+    width: 2.2rem;
+}
+
+.skills__pro {
+    height: 2rem;
+    width: 2rem;
+}
+
+.skills__soft {
+    height: 2rem;
+    width: 2rem;
+}
+
+.skills__others {
+    height: 1.5rem;
+    width: 2.2rem;
+}
+
+/********************************* PROJECTS *********************************/
+
+.project__container {
+    border-radius: 10px;
+    /* float: left; */
+    margin: 0.5% 0.5%;
+    overflow: hidden;
+    padding: 0;
+    width: 49%;
+}
+
+.project__img {
+    border-radius: 10px;
+    transition-duration: 1s;
+    width: 100%;
+}
+
+.project__img:hover {
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+}
+
 
 /*********************************************************************************/
 
@@ -141,6 +211,16 @@ p {
 
 /*********************************************************************************/
 
+@media (max-width: 1250px) {
+	.menu {
+		background: #ececec;
+		position: fixed;
+		height: 100vh;
+		width: 250px;
+		text-align: center;
+		margin-top: 220px;
+	}
+}
 
 @media (max-width: 500px) {
 	body {
