@@ -124,7 +124,6 @@ p {
 
 .main { 
 	background: #fcfcfc;
-	border-radius: 25px;
 	text-align: center;
 	margin-left: 250px;
 	margin-bottom: 2px;
@@ -267,22 +266,65 @@ p {
 	}
 	.arrow__container {
 		margin-left: 225px;
+		margin-bottom: 12%;
 	}
 }
 
 @media (max-width: 950px) {
-	body {
-		/* overflow-x: hidden; */
-	}
 	.hero__img {
-		margin-left: 220px;
-		border-radius: 30px;
+		margin-left: 0px;
+		border-radius: 0px;
+		margin-top: 8%;
 	}
 	.main {
 		border-radius: 20px;
-		margin-left: 220px;
-		transition: left 0.3s ease-in-out;
+		margin: 1px auto;
 	}
+	.menu {
+		background: #ececec;
+		position: sticky;
+		height: 0;
+		width: 100%;
+		margin: 0;
+	}
+	.menu__logo {
+		position: absolute;
+		margin: 28% 20%;
+		color: white;
+		background-color: rgba(0, 0, 0, 0.678);
+		border: 1px solid #ececec;
+		border-radius: 10px;
+		padding: 10% 10%;
+		width: 40%;
+	}
+	.menu__logo span {
+		letter-spacing: 0.5rem;
+		line-height: 300%;
+		text-transform: uppercase;
+		text-decoration: none;
+	}
+	.menu__logo h1 {
+		letter-spacing: 0.3rem;
+		font-size: 2rem;
+		padding: 0;
+	}
+	.menu__list ul {
+		display: flex;
+	}
+	.menu__list li {
+		border-top: 0px;
+	}
+	
+	.menu__list li a {
+		border-radius: 0px;
+	}
+	.arrow__container {
+		margin-left: 120px;
+	}
+	
+}
+
+@media (max-width: 450px) {
 	.menu__list li a:hover {
 		width: auto;
 	}
