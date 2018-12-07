@@ -31,14 +31,11 @@ p {
 
 /*********************************************************************************/
 
-.hero {
-    height: 100vh;
-}
-
 .hero__img {
-    width: 80%;
-    margin-top: 91px;
-    margin-left: 250px;
+    width: 100%;
+    margin-top: 98px;
+	margin-left: 250px;
+	max-width: 950px;
 	border-radius: 0px 30px 30px 0px;
 }
 
@@ -114,6 +111,7 @@ p {
 	margin-left: 250px;
 	margin-bottom: 2px;
 	padding: 4% 2%;
+	width: 70%;
 }
 
 .main__header {
@@ -236,29 +234,43 @@ p {
 	.menu__logo h1 {
 		font-size: 1.2rem;
 	}
-	/* HERO IMG */
+	.hero__img {
+		width: 73%;
+		margin-top: 5%;
+		margin-left: 225px;
+	}
+	.main {
+		margin-left: 225px;
+		width: 69%;
+	}
 }
 
 @media (max-width: 950px) {
 	body {
 		/* overflow-x: hidden; */
 	}
-	.hero {
-		height: 60vh;
+	.hero__img {
+		margin-left: 220px;
+		border-radius: 30px;
 	}
 	.main {
+		border-radius: 20px;
+		margin-left: 220px;
 		transition: left 0.3s ease-in-out;
+	}
+	.menu__list li a:hover {
+		width: auto;
 	}
 	.menu {
 		flex: none;
 		height: 100%;
-		left: -200px;
+		left: -220px;
 		position: fixed;
 		width: 200px;
+		top: 6%;
 		transition: left 0.3s ease-in-out;
 	}
-	.menu__label 
-	{
+	.menu__label {
 		cursor: pointer;
 		display: block;
 		font-size: 8vw;
@@ -275,9 +287,5 @@ p {
 	}
 	.menu__switch:checked ~ .menu {
 		left: 0;
-	}
-	.menu__switch:checked ~ .main {
-		-webkit-transform: translateX(200px);
-		transform: translateX(200px);
 	}
 }
