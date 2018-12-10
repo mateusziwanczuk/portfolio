@@ -1,3 +1,20 @@
+/*****************************************
+
+1. TODO: form section isn't responsive 
+on the viewport with small height.
+
+2. TODO: RWD for small laptops (overflow y 
+in arrow, hero header, form.
+
+3. TODO: Contact section: background attachment
+position fixed looks bad with portrait 
+orientation (img repeat).
+
+4. TODO: Return to the top arrow.
+
+*****************************************/
+
+
 * {
 	margin: 0;
 	overflow-x: hidden;
@@ -141,9 +158,9 @@ p {
 
 .about__me {
 	margin-top: 5%;
-	padding-bottom: 10%;
+	padding-bottom: 3%;
 }
-.about__me img{
+.about__me--img{
 	border: 3px solid #ececec;
 	border-radius: 50%;
 	padding: 5px;
@@ -152,6 +169,12 @@ p {
 
 .about__me p {
 	text-align: justify;
+}
+
+.about__me--icon {
+	width: 5%;
+	border-radius: 5px;
+	margin: 6ch 1ch;
 }
 
 /*********************************************************************************/
@@ -286,6 +309,22 @@ p {
 .findme {
 	height: 40vh;
 }
+
+/*********************************************************************************/
+
+/* FOOTER                                             		                     */
+
+/*********************************************************************************/
+
+footer {
+	align-items: center;
+	display: flex;
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 1.1rem;
+	height: 3vh;
+	justify-content: center;
+}
+
 
 /*********************************************************************************/
 
@@ -478,6 +517,6 @@ p {
 	}
 }
 
-
+/********************************************/
 
 
