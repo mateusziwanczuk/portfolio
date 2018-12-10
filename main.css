@@ -1,17 +1,18 @@
 * {
 	margin: 0;
+	overflow-x: hidden;
 	padding: 0;
 	scroll-behavior: smooth;
 }
 
 body {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
 	background: #ececec;
+	box-sizing: border-box;
+	color: #2a2a2a;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 16px;
-	color: #2a2a2a;
+	margin: 0;
+	padding: 0;
 }
 
 .wrapper {
@@ -21,24 +22,23 @@ body {
 }
 
 p {
-	line-height: 180%;
 	font-size: 1.1rem;
+	line-height: 180%;
 }
 
 .arrow__container {
-	text-align: center;
 	margin-left: 250px;
 	padding: 7% 0 2% 2%;
+	text-align: center;
 	width: 70%;
 }
 
 .fa-angle-double-down {
-	font-size: 3.5rem;
 	color: #2a2a2a36;
+	font-size: 3.5rem;
 }
 
 .fa-angle-double-down:hover {
-	font-size: 4rem;
 	color: white;
 }
 
@@ -49,20 +49,20 @@ p {
 /*********************************************************************************/
 
 .hero__img {
-    width: 100%;
-    margin-top: 98px;
-	margin-left: 250px;
-	max-width: 950px;
 	border-radius: 0px 30px 30px 0px;
+	margin-left: 250px;
+    margin-top: 98px;
+	max-width: 950px;
+    width: 100%;
 }
 
 .menu {
 	background: #ececec;
-	position: fixed;
 	height: 100vh;
-	width: 250px;
-	text-align: center;
 	margin-top: 220px;
+	position: fixed;
+	text-align: center;
+	width: 250px;
 }
 
 .menu__logo {
@@ -72,19 +72,19 @@ p {
 
 .menu__logo span {
 	letter-spacing: 0.2rem;
-	text-transform: uppercase;
 	text-decoration: underline;
+	text-transform: uppercase;
 }
 
 .menu__logo h1 {
-	letter-spacing: 0.3rem;
 	font-size: 1.5rem;
+	letter-spacing: 0.3rem;
 	padding: 2% 3% 10%;
 }
 
 .menu__list ul {
-	padding: 0;
 	list-style: none;
+	padding: 0;
 }
 
 .menu__list li {
@@ -100,20 +100,20 @@ p {
 }
 
 .menu__list li a {
+	background-color: #2a2a2a;
+	border-radius: 20px 0px 0px 20px;
+	color: #fcfcfc;
 	display: block;
+	font-weight: 700;
 	padding: 2em 1.5em;
 	text-align: center;
 	text-decoration:  none;
 	text-transform: uppercase;
-	font-weight: 700;
-	color: #fcfcfc;
-	background-color: #2a2a2a;
-	border-radius: 20px 0px 0px 20px;
 }
 
 .menu__list li a:hover {
-	width: 75%;
 	margin-left: 5.8%;
+	width: 75%;
 }
 
 /*********************************************************************************/
@@ -125,18 +125,18 @@ p {
 .main { 
 	background: #fcfcfc;
 	border-radius: 15px;
-	text-align: center;
-	margin-left: 250px;
 	margin-bottom: 2px;
+	margin-left: 250px;
 	padding: 4% 2%;
+	text-align: center;
 	width: 70%;
 }
 
 .main__header {
-	letter-spacing: 1.5rem;
 	font-weight: 200;
-	text-transform: uppercase;
+	letter-spacing: 1.5rem;
 	padding: 3% 0;
+	text-transform: uppercase;
 }
 
 .about__me {
@@ -145,8 +145,8 @@ p {
 }
 .about__me img{
 	border: 3px solid #ececec;
-	padding: 5px;
 	border-radius: 50%;
+	padding: 5px;
 	width: 25%;
 }
 
@@ -161,26 +161,26 @@ p {
 /*********************************************************************************/
 
 .skills__container {
-	background: url(img/skills2.jpeg);
-	background-size: cover;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
+	background-size: cover;
+	background: url(img/skills2.jpeg);
 }
 .skills {
 	background-color: white;
+    border: 1px solid rgba(204, 204, 204, 0.932);
+    border-radius: 10px;
     display: inline-flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    border: 1px solid rgba(204, 204, 204, 0.932);
-    border-radius: 10px;
     margin: 1ch 1ch 1ch 2ch; 
     padding: 1.5vw 0;
-    width: 9vw;
+    width: 12vw;
 }
 
 .skills__header {
-	margin: 3ch auto 1ch; 
 	font-weight: 100;
+	margin: 3ch auto 1ch; 
 }
 
 .skills:hover {
@@ -252,32 +252,32 @@ p {
 }
 
 .contact h1 {
-	text-align: center;
 	margin-bottom: 2%;
+	text-align: center;
 }
 
 .contact__form {
-	text-align: left;
 	margin-left: 3%;
+	text-align: left;
 }
 
 .contact__form--input {
 	border-radius: 4px;
-	padding: 1% 14%;
 	margin: 1% 1% 1% 0;
+	padding: 1% 14%;
 }
 
 .contact__form--message {
-	padding: 10% 14%;
 	border-radius: 4px;
+	padding: 10% 14%;
 }
 
 .contact__form--send {
-	padding: 1% 5%;
-	margin: 2% 0 0 17%;
+	background-color: grey;
 	border: 1px solid white;
 	color: white;
-	background-color: grey;
+	margin: 2% 0 0 17%;
+	padding: 1% 5%;
 }
 
 .findme {
@@ -297,7 +297,7 @@ p {
 		height: 100vh;
 		width: 200px;
 		text-align: center;
-		margin-top: 232px;
+		margin-top: 10%;
 		margin-left: 20px;
 	}
 	.menu__logo span {
@@ -308,9 +308,9 @@ p {
 		font-size: 1.2rem;
 	}
 	.hero__img {
-		height: 100%
-		margin-top: 5%;
 		margin-left: 220px;
+		position: center;
+		width: 74%;
 	}
 	.main {
 		margin-left: 225px;
@@ -325,62 +325,78 @@ p {
 	}
 }
 
-/************************************
+/********************************************/
 
-@media (max-width: 950px) {
+@media (max-width: 900px) {
 	.hero__img {
-		margin-left: 0px;
-		border-radius: 0px;
-		margin-top: 8%;
-	}
-	.main {
-		border-radius: 20px;
-		margin: 1px auto;
-	}
-	.menu {
-		background: #ececec;
-		position: sticky;
-		height: 0;
-		width: 100%;
 		margin: 0;
-	}
-	.menu__logo {
-		position: absolute;
-		margin: 28% 20%;
-		color: white;
-		background-color: rgba(0, 0, 0, 0.678);
-		border: 1px solid #ececec;
-		border-radius: 10px;
-		padding: 10% 10%;
-		width: 40%;
-	}
-	.menu__logo span {
-		letter-spacing: 0.5rem;
-		line-height: 300%;
-		text-transform: uppercase;
-		text-decoration: none;
-	}
-	.menu__logo h1 {
-		letter-spacing: 0.3rem;
-		font-size: 2rem;
-		padding: 0;
-	}
-	.menu__list ul {
-		display: flex;
-	}
-	.menu__list li {
-		border-top: 0px;
-	}
-	
-	.menu__list li a {
-		border-radius: 0px;
+		border-radius: 0;
+		width: 100vw;
 	}
 	.arrow__container {
 		margin-left: 120px;
 	}
-	
+	.menu {
+		background: #ececec00;
+		width: 100%;
+		margin: 0;
+		position: absolute;
+	}
+	.menu__logo {
+		background-color: #2a2a2ac7;
+		border: 1px solid white;
+		border-radius: 15px;
+		color: #ececec;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		line-height: 200%;
+		margin: 22% 20%;
+		padding: 5%;
+		position: absolute;
+		width: 50%;
+	}
+	.menu__logo h1 {
+		font-size: 1.5rem;
+	}
+	.menu__logo span {
+		font-size: 3.5vw;
+		text-decoration: none;
+		letter-spacing: 0.3ch;
+		padding-top: 6%;
+	}
+	.menu__list ul {
+		width: 100%;
+		display: inline-flex;
+	}
+	.menu__list li {
+		border-top: 0px solid #ececec;
+		width: 100%;
+	}
+	.menu__list li a {
+		border-radius: 0px;
+		font-size: 0.8rem;
+	}
+	.menu__list li a:hover {
+		display: none;
+	}
+	.arrow__container {
+		display: none;
+	}
+	.main { 
+		margin-left: 0px;
+		margin: 7% auto;
+		width: 80%;
+	}
+	.contact {
+		background-attachment: static;
+		background-size: cover;
+		background-position: right;
+		height: 40vh;
+	}
 }
-************************************/
+
+/********************************************/
 
 @media (max-width: 450px) {
 	.menu__list li a:hover {
