@@ -141,6 +141,7 @@ p {
 
 .about__me {
 	margin-top: 5%;
+	padding-bottom: 10%;
 }
 .about__me img{
 	border: 3px solid #ececec;
@@ -160,6 +161,10 @@ p {
 /*********************************************************************************/
 
 .skills__container {
+	background: url(img/skills2.jpeg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
 }
 .skills {
 	background-color: white;
@@ -265,7 +270,14 @@ p {
 .contact__form--message {
 	padding: 10% 14%;
 	border-radius: 4px;
+}
 
+.contact__form--send {
+	padding: 1% 5%;
+	margin: 2% 0 0 17%;
+	border: 1px solid white;
+	color: white;
+	background-color: grey;
 }
 
 .findme {
