@@ -502,7 +502,7 @@ footer {
 	.menu__switch:checked ~ .main {
 		margin-left: 140px;
 	}
-	.menu__switch:checked ~ .hero__img {
+	.menu__switch:checked ~ a .hero__img {
 		margin-left: 140px;
 	}
 	.main__header {
@@ -517,6 +517,5 @@ footer {
 	}
 }
 
-/********************************************/
 
 
