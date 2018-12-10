@@ -175,6 +175,11 @@ p {
 	width: 5%;
 	border-radius: 5px;
 	margin: 6ch 1ch;
+	filter: saturate(50%);
+}
+
+.about__me--icon:hover {
+	filter: saturate(100%);
 }
 
 /*********************************************************************************/
@@ -184,10 +189,11 @@ p {
 /*********************************************************************************/
 
 .skills__container {
-	background: url(img/skills2.jpeg);
+	background: url(img/skills2.jpg);
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-position-x: left;
 	display: flex;
 	flex-direction: column;
 }
@@ -195,7 +201,8 @@ p {
 .skills {
 	background-color: white;
     border: 1px solid rgba(204, 204, 204, 0.932);
-    border-radius: 10px;
+	border-radius: 10px;
+	box-shadow: #2a2a2a54 0 0 20px 0.5px;
     display: inline-flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -306,10 +313,6 @@ p {
 	padding: 1% 5%;
 }
 
-.findme {
-	height: 40vh;
-}
-
 /*********************************************************************************/
 
 /* FOOTER                                             		                     */
@@ -320,7 +323,7 @@ footer {
 	align-items: center;
 	display: flex;
 	font-family: 'Courier New', Courier, monospace;
-	font-size: 1.1rem;
+	font-size: 1vw;
 	height: 3vh;
 	justify-content: center;
 }
@@ -436,6 +439,9 @@ footer {
 		background-position: right;
 		height: 40vh;
 	}
+	footer {
+		font-size: 2vw;
+	}
 }
 
 /********************************************/
@@ -514,6 +520,9 @@ footer {
 	}
 	.project__container {
 		width: 90%;
+	}
+	footer {
+		font-size: 2vw;
 	}
 }
 
