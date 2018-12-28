@@ -30,6 +30,7 @@ body {
 	font-size: 16px;
 	margin: 0;
 	padding: 0;
+	width: 100%;
 }
 
 .wrapper {
@@ -53,6 +54,7 @@ p {
 .fa-angle-double-down {
 	color: #2a2a2a36;
 	font-size: 3.5rem;
+	overflow: hidden;
 }
 
 .fa-angle-double-down:hover {
@@ -68,7 +70,7 @@ p {
 .hero__img {
 	border-radius: 0px 30px 30px 0px;
 	margin-left: 250px;
-    margin-top: 98px;
+    margin-top: 60px;
 	max-width: 950px;
     width: 100%;
 }
@@ -76,7 +78,7 @@ p {
 .menu {
 	background: #ececec;
 	height: 100vh;
-	margin-top: 220px;
+	margin-top: 180px;
 	position: fixed;
 	text-align: center;
 	width: 250px;
@@ -109,11 +111,11 @@ p {
 }
 
 .menu__switch  {
-	display: none
+	display: none;
 }
 
 .menu__label  {
-	display: none
+	display: none;
 }
 
 .menu__list li a {
@@ -253,13 +255,12 @@ p {
     border-radius: 10px;
 	display: inline-flex;
     margin: 0.5% 0.5%;
-    overflow: hidden;
     padding: 0;
     width: 48%;
 }
 
 .project__img {
-    border-radius: 10px;
+	border-radius: 10px;
     transition-duration: 1s;
     width: 100%;
 }
@@ -279,9 +280,9 @@ p {
 .contact {
 	background: url(img/project.jpeg);
 	background-attachment: fixed;
-	background-size: contain;
-	background-position: left;
-	height: 50vh;
+	background-size: 90%;
+	background-position-y: 50%;
+	height: 60vh;
 }
 
 .contact h1 {
@@ -441,13 +442,16 @@ footer {
 		width: 50%;
 	}
 	.menu__logo h1 {
-		font-size: 1.5rem;
+		font-size: 1.4rem;
+		overflow-y: hidden;
+
 	}
 	.menu__logo span {
 		font-size: 3.5vw;
 		text-decoration: none;
 		letter-spacing: 0.3ch;
-		padding-top: 6%;
+		overflow: hidden;
+		padding-top: 8%;
 	}
 	.menu__list ul {
 		width: 100%;
@@ -476,7 +480,7 @@ footer {
 		background-attachment: static;
 		background-size: cover;
 		background-position: right;
-		height: 40vh;
+		height: 55vh;
 	}
 	footer {
 		font-size: 2vw;
@@ -501,7 +505,7 @@ footer {
 	.menu__label {
 		cursor: pointer;
 		display: block;
-		font-size: 8vw;
+		font-size: 10vw;
 		left: 6%;
 		position: fixed;
 		top: 2%;
