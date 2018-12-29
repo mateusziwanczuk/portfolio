@@ -36,11 +36,11 @@ body {
 .wrapper {
 	background: #ececec;
 	margin: 0 auto;
-	max-width: 1200px;
+	max-width: 1000px;
 }
 
 p {
-	font-size: 1.1rem;
+	font-size: 1rem;
 	line-height: 180%;
 }
 
@@ -70,18 +70,19 @@ p {
 .hero__img {
 	border-radius: 0px 30px 30px 0px;
 	margin-left: 250px;
-    margin-top: 60px;
-	max-width: 950px;
+    margin-top: 80px;
+	max-width: 750px;
     width: 100%;
 }
 
 .menu {
 	background: #ececec;
 	height: 100vh;
-	margin-top: 180px;
+	margin-left: 50px;
+	margin-top: 156px;
 	position: fixed;
 	text-align: center;
-	width: 250px;
+	width: 200px;
 }
 
 .menu__logo {
@@ -90,13 +91,14 @@ p {
 }
 
 .menu__logo span {
+	font-size: 0.8rem;
 	letter-spacing: 0.2rem;
 	text-decoration: underline;
 	text-transform: uppercase;
 }
 
 .menu__logo h1 {
-	font-size: 1.5rem;
+	font-size: 1rem;
 	letter-spacing: 0.3rem;
 	padding: 2% 3% 10%;
 }
@@ -124,7 +126,7 @@ p {
 	color: #fcfcfc;
 	display: block;
 	font-weight: 700;
-	padding: 2em 1.5em;
+	padding: 1.5em 1.5em;
 	text-align: center;
 	text-decoration:  none;
 	text-transform: uppercase;
@@ -387,7 +389,7 @@ footer {
 		font-size: 0.8rem;
 	}
 	.menu__logo h1 {
-		font-size: 1.2rem;
+		font-size: 1rem;
 	}
 	.hero__img {
 		margin-left: 220px;
@@ -417,6 +419,7 @@ footer {
 		margin: 0;
 		border-radius: 0;
 		width: 100vw;
+		max-width: none;
 	}
 	.arrow__container {
 		margin-left: 120px;
