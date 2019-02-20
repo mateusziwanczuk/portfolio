@@ -9,7 +9,6 @@
 </head>
 <body>
 	<div class="wrapper">
-		
 		<input type="checkbox" class="menu__switch" id="menu">
 		<label class="menu__label" for="menu"><i class="fas fa-bars"></i></label>
 			<div class="menu">
@@ -17,19 +16,17 @@
 					<span>Mateusz Iwańczuk</span>
 					<h1>MateuszMatzh</h1>
 				</div>
-
 				<div class="menu__list">
 					<ul>
-						<li><a href="#menu-aboutme">About me</a></li>
-						<li><a href="#menu-skills">Skills</a></li>
-						<li><a href="#menu-projects">Projects</a></li>
-						<li><a href="#menu-contact">Contact</a></li>
+						<li class="menu__about"><a href="#menu-aboutme menu__section">About me</a></li>
+						<li class="menu__skills"><a href="#menu-skills menu__section">Skills</a></li>
+						<li class="menu__projects"><a href="#menu-projects menu__section">Projects</a></li>
+						<li class="menu__contact"><a href="#menu-contact menu__section">Contact</a></li>
 						<li><a target="_blank" href="https://github.com/mateuszmatzh">GitHub</a></li>
 					</ul>
 				</div>
 			</div>
 			<a href="#"><img class="hero__img" src="img/image1.jpeg"></a>
-		
 		<div class="arrow__container">
 			<a href="#menu-aboutme"><i class="fas fa-angle-double-down"></i></a>		
 		</div>
@@ -47,7 +44,6 @@
 				<a target="_blank" href="https://github.com/mateuszmatzh"><img class="about__me--icon" src="img/github.png"></a>
 				<a target="_blank" href="https://www.linkedin.com/in/mateusz-iwa%C5%84czuk-4796a7128/"><img class="about__me--icon" src="img/linkedin.png"></a>
 		</div>
-
 		<div class="skills__container main" id="menu-skills">
 			<h1 class="main__header">SKILLS</h1>
 			<div>
@@ -70,7 +66,6 @@
 				<div class="skills"><span><img src="img/jira.jpg" class="skills__soft" alt="logo"><br>JIRA</span></div>
 			</div>          
 		</div>
-
 		<div class="main" id="menu-projects">
 			<h1 class="main__header">PROJECTS</h1>
 			<div class="project__container"><a href="https://mateusziwanczuk.github.io/clock_JS/" target="_blank"><img src="img/Clock_JS.png" alt="screen portfolio" class="project__img"></a></div>
@@ -78,7 +73,6 @@
 			<div class="project__container"><a href="https://mateusziwanczuk.github.io/color-car/"><img src="img/color-car.png" alt="screen portfolio" class="project__img"></a></div>
 			<div class="project__container"></div>
 		</div>
-
 		<div class="contact main" id="menu-contact">
 			<form class="contact__form">
 				<h1 class="main__header">Contact:</h1>
@@ -91,16 +85,12 @@
 				<div>
 					<input class="contact__form--message" type="text" id="message" name="message" placeholder="Your message">
 				</div>
-
 				<input class="contact__form--send" type="submit" value="Send">
-
 			</form>
 		</div>
-
 		<footer class="main">
 			<span>Designed by Mateusz Iwańczuk. All rights reserved.</span>
 		</footer>
-
 		<a href="index.html" class="back-to-top-button">🔝</a>
 		<script src="script.js"></script>
 	</div>
