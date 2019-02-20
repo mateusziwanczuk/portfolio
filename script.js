@@ -19,10 +19,10 @@ function trackScroll() {
   const aboutScroll = about.offsetTop - 100;
   const skills = document.getElementById("menu-skills");
   const skillsLink = document.querySelector('.menu__skills');
-  const skillsScroll = skills.offsetTop - 100;
+  const skillsScroll = skills.offsetTop - 70;
   const projects = document.getElementById("menu-projects");
   const projectsLink = document.querySelector('.menu__projects');
-  const projectsScroll = projects.offsetTop - 100;
+  const projectsScroll = projects.offsetTop - 70;
   const contact = document.getElementById("menu-contact");
   const contactLink = document.querySelector('.menu__contact');
   const contactScroll = contact.offsetTop - 150;
@@ -54,4 +54,7 @@ function trackScroll() {
       contactLink.style.marginLeft = "8%";
   };
 };  
-window.addEventListener("scroll", trackScroll)
+
+if (screen.width > 900) {
+    window.addEventListener("scroll", trackScroll)
+}
