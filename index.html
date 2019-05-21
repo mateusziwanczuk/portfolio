@@ -4,8 +4,22 @@
 	<title>Portfolio: Mateusz Iwańczuk</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link href="main.css" rel="stylesheet" type="text/css" media="all" />
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+	<link 
+		rel="stylesheet" 
+		href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" 
+		integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" 
+		crossorigin="anonymous"
+	>
+	<link href="/styles/main.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="/styles/menu.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="/styles/hero.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="/styles/about-me.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="/styles/skills.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="/styles/projects.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="/styles/contact.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="/styles/footer.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="/styles/back-to-top.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="/styles/media-queries.css" rel="stylesheet" type="text/css" media="all" />
 </head>
 <body>
 	<div class="wrapper">
@@ -13,67 +27,148 @@
 		<label class="menu__label" for="menu"><i class="fas fa-bars"></i></label>
 			<div class="menu">
 				<div class="menu__logo">
-					<span>Mateusz Iwańczuk</span>
-					<h1>MateuszMatzh</h1>
+					<h1>Mateusz Iwańczuk</h1>
 				</div>
 				<div class="menu__list">
 					<ul>
-						<li class="menu__about"><a href="#menu-aboutme menu__section">About me</a></li>
-						<li class="menu__skills"><a href="#menu-skills menu__section">Skills</a></li>
-						<li class="menu__projects"><a href="#menu-projects menu__section">Projects</a></li>
-						<li class="menu__contact"><a href="#menu-contact menu__section">Contact</a></li>
-						<li><a target="_blank" href="https://github.com/mateusziwanczuk">GitHub</a></li>
+						<li class="menu__about">
+							<a href="#menu-aboutme menu__section">About me</a>
+						</li>
+						<li class="menu__skills">
+							<a href="#menu-skills menu__section">Skills</a>
+						</li>
+						<li class="menu__projects">
+							<a href="#menu-projects menu__section">Projects</a>
+						</li>
+						<li class="menu__contact">
+							<a href="#menu-contact menu__section">Contact</a>
+						</li>
+						<li>
+							<a target="_blank" href="https://github.com/mateusziwanczuk">GitHub</a>
+						</li>
 					</ul>
 				</div>
 			</div>
 			<a href="#"><img class="hero__img" src="img/image1.jpeg"></a>
 		<div class="arrow__container">
-			<a href="#menu-aboutme"><i class="fas fa-angle-double-down"></i></a>		
+			<a href="#menu-aboutme%20menu__section">
+				<i class="fas fa-angle-double-down"></i>
+			</a>		
 		</div>
 		<div class="about__me main">
-			<img src="img/CV__foto.png" class="about__me--img" id="menu-aboutme menu__section" alt="zdjęcie profilowe">
-			<h1 class="main__header">About me</h1><br>
-               <p>My name is Mateusz Iwańczuk. In 2018 I graduated with a bachelor degree of Iberian studies at the University of Gdańsk (Poland). 
+			<img 
+				src="img/CV__foto.png" 
+				class="about__me--img" 
+				id="menu-aboutme menu__section" 
+				alt="zdjęcie profilowe"
+			>
+			<h1 class="main__header">About me</h1>
+            <p>
+				My name is Mateusz Iwańczuk. In 2018 I graduated with a bachelor degree of Iberian studies at the University of Gdańsk (Poland). 
 				I speak Polish, English, Spanish, French and Portuguese. Currently I'm actively learning programming in HTML, CSS and JavaScript.
 				I would like to develop my skills in IT. Until now, I have worked irregularly in odd jobs of various fields. I helped to construct 
 				an installation of drainage systems in the shipyard of Gdynia, I was a Junior Specialist in customer service in French-speaking section,
 				and I tutored in foreign languages. I spend my free time creating a travel blog <i>Podróże MM</i>. <a href="http://www.podrozemm.pl" target="_blank">
 				My site</a> is visited by 500-2000 persons. My blog has also over 2500 followers on <a href="https://www.facebook.com/podrozemm/" target="_blank">Facebook</a>. 
-				</p>
-				<a target="_blank" href="http://www.facebook.com/mateusz.iwanczuk.9"><img class="about__me--icon" src="img/facebook.png"></a>
-				<a target="_blank" href="https://github.com/mateuszmatzh"><img class="about__me--icon" src="img/github.png"></a>
-				<a target="_blank" href="https://www.linkedin.com/in/mateusz-iwa%C5%84czuk-4796a7128/"><img class="about__me--icon" src="img/linkedin.png"></a>
+			</p>
+			<a target="_blank" href="http://www.facebook.com/mateusz.iwanczuk.9"><img class="about__me--icon" src="img/facebook.png"></a>
+			<a target="_blank" href="https://github.com/mateuszmatzh"><img class="about__me--icon" src="img/github.png"></a>
+			<a target="_blank" href="https://www.linkedin.com/in/mateusz-iwa%C5%84czuk-4796a7128/"><img class="about__me--icon" src="img/linkedin.png"></a>
 		</div>
 		<div class="skills__container main" id="menu-skills menu__section">
 			<h1 class="main__header">SKILLS</h1>
 			<div>
 				<h3 class="skills__header">Languages:</h3>
-				<div class="skills"><span><img src="img/pol.png" class="skills__flag" alt="flag"><br>Polish</span></div>
-				<div class="skills"><span><img src="img/eng.png" class="skills__flag" alt="flag"><br>English</span></div>
-				<div class="skills"><span><img src="img/fra.png" class="skills__flag" alt="flag"><br>French</span></div><br>
-				<div class="skills"><span><img src="img/esp.png" class="skills__flag" alt="flag"><br>Spanish</span></div>
-				<div class="skills"><span><img src="img/por.png" class="skills__flag" alt="flag"><br>Portuguese</span></div>
+				<div class="skills">
+					<span>
+						<img src="img/pol.png" class="skills__flag" alt="flag"><br>Polish
+					</span>
+				</div>
+				<div class="skills">
+					<span>
+						<img src="img/eng.png" class="skills__flag" alt="flag"><br>English
+					</span>
+				</div>
+				<div class="skills">
+					<span>
+						<img src="img/fra.png" class="skills__flag" alt="flag"><br>French
+					</span>
+				</div><br>
+				<div class="skills">
+					<span>
+						<img src="img/esp.png" class="skills__flag" alt="flag"><br>Spanish
+					</span>
+				</div>
+				<div class="skills">
+					<span>
+						<img src="img/por.png" class="skills__flag" alt="flag"><br>Portuguese
+					</span>
+				</div>
 			</div>
 			<div>
 				<h3 class="skills__header">Programming:</h3>
-				<div class="skills"><span><img src="img/html.png" class="skills__pro" alt="logo"><br>HTML 5</span></div>
-				<div class="skills"><span><img src="img/css.png" class="skills__pro" alt="logo"><br>CSS 3</span></div>
-				<div class="skills"><span><img src="img/js.png" class="skills__pro" alt="logo"><br>JavaScript</span></div>
+				<div class="skills">
+					<span>
+						<img src="img/html.png" class="skills__pro" alt="logo"><br>HTML 5
+					</span>
+				</div>
+				<div class="skills">
+					<span>
+						<img src="img/css.png" class="skills__pro" alt="logo"><br>CSS 3
+					</span>
+				</div>
+				<div class="skills">
+					<span>
+						<img src="img/js.png" class="skills__pro" alt="logo"><br>JavaScript
+					</span>
+				</div>
 			</div>
 			<div>
 				<h3 class="skills__header">Software:</h3>
-				<div class="skills"><span><img src="img/git.svg" class="skills__soft" alt="logo"><br>GIT</span></div>
-				<div class="skills"><span><img src="img/jira.jpg" class="skills__soft" alt="logo"><br>JIRA</span></div>
+				<div class="skills">
+					<span>
+						<img src="img/git.svg" class="skills__soft" alt="logo"><br>GIT
+					</span>
+				</div>
+				<div class="skills">
+					<span>
+						<img src="img/jira.jpg" class="skills__soft" alt="logo"><br>JIRA
+					</span>
+				</div>
 			</div>          
 		</div>
 		<div class="main" id="menu-projects menu__section">
 			<h1 class="main__header">PROJECTS</h1>
-			<div class="project__container"><a href="http://www.roma.jfdz10.is-academy.pl/" target="_blank"><img src="img/pizzerium.png" alt="screen portfolio" class="project__img"></a></div>
-			<div class="project__container"><a href="https://mateusziwanczuk.github.io/tanks_game/" target="_blank"><img src="img/tanks-game.png" alt="screen portfolio" class="project__img"></a></div>
-			<div class="project__container"><a href="https://mateusziwanczuk.github.io/clock_JS/" target="_blank"><img src="img/Clock_JS.png" alt="screen portfolio" class="project__img"></a></div>
-			<div class="project__container"><a href="https://mateusziwanczuk.github.io/drum_kit/" target="_blank"><img src="img/drum-kit.png" alt="screen portfolio" class="project__img"></a></div>
-			<div class="project__container"><a href="https://mateusziwanczuk.github.io/color-car/" target="_blank"><img src="img/color-car.png" alt="screen portfolio" class="project__img"></a></div>
-			<div class="project__container"><a href="https://mateusziwanczuk.github.io/countries/" target="_blank"><img src="img/countries.png" alt="screen portfolio" class="project__img"></a></div>
+			<div class="project__container">
+				<a href="http://www.roma.jfdz10.is-academy.pl/" target="_blank">
+					<img src="img/pizzerium.png" alt="screen portfolio" class="project__img">
+				</a>
+			</div>
+			<div class="project__container">
+				<a href="https://mateusziwanczuk.github.io/tanks_game/" target="_blank">
+					<img src="img/tanks-game.png" alt="screen portfolio" class="project__img">
+				</a>
+			</div>
+			<div class="project__container">
+				<a href="https://mateusziwanczuk.github.io/clock_JS/" target="_blank">
+					<img src="img/Clock_JS.png" alt="screen portfolio" class="project__img">
+				</a>
+			</div>
+			<div class="project__container">
+				<a href="https://mateusziwanczuk.github.io/drum_kit/" target="_blank">
+					<img src="img/drum-kit.png" alt="screen portfolio" class="project__img">
+				</a>
+			</div>
+			<div class="project__container">
+				<a href="https://mateusziwanczuk.github.io/color-car/" target="_blank">
+					<img src="img/color-car.png" alt="screen portfolio" class="project__img">
+				</a>
+			</div>
+			<div class="project__container">
+				<a href="https://mateusziwanczuk.github.io/countries/" target="_blank">
+					<img src="img/countries.png" alt="screen portfolio" class="project__img">
+				</a>
+			</div>
 
 		</div>
 		<div class="contact main" id="menu-contact menu__section">

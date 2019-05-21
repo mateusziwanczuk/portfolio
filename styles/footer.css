@@ -1,0 +1,8 @@
+footer {
+	align-items: center;
+	display: flex;
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 1vw;
+	height: 3vh;
+	justify-content: center;
+}

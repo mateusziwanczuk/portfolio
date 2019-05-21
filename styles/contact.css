@@ -1,0 +1,36 @@
+.contact {
+	background: url(../img/project.jpeg);
+	background-attachment: fixed;
+	background-size: 90%;
+	background-position-y: 50%;
+	height: 60vh;
+}
+
+.contact h1 {
+	margin-bottom: 2%;
+	text-align: center;
+}
+
+.contact__form {
+	margin-left: 3%;
+	text-align: left;
+}
+
+.contact__form--input {
+	border-radius: 4px;
+	margin: 1% 1% 1% 0;
+	padding: 1% 14%;
+}
+
+.contact__form--message {
+	border-radius: 4px;
+	padding: 10% 14%;
+}
+
+.contact__form--send {
+	background-color: grey;
+	border: 1px solid white;
+	color: white;
+	margin: 2% 0 0 17%;
+	padding: 1% 5%;
+}

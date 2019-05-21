@@ -1,0 +1,53 @@
+.skills__container {
+	background: url(../img/skills2.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position-x: left;
+	display: flex;
+	flex-direction: column;
+}
+
+.skills {
+	background-color: white;
+    border: 1px solid rgba(204, 204, 204, 0.932);
+	border-radius: 10px;
+	box-shadow: #2a2a2a54 0 0 20px 0.5px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 1ch 1ch 1ch 2ch; 
+    padding: 1.5vw 0;
+    width: 25%;
+}
+
+.skills__header {
+	font-weight: 100;
+	margin: 3ch auto 1ch; 
+}
+
+.skills:hover {
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.skills__flag {
+	border-radius: 5px;
+    height: 1.5rem;
+    width: 2.2rem;
+}
+
+.skills__pro {
+    height: 2rem;
+    width: 2rem;
+}
+
+.skills__soft {
+    height: 2rem;
+    width: 2rem;
+}
+
+.skills__others {
+    height: 1.5rem;
+    width: 2.2rem;
+}

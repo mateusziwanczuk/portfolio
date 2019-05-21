@@ -1,0 +1,55 @@
+.menu {
+	background: #ececec;
+	height: 100vh;
+	margin-left: 50px;
+	margin-top: 156px;
+	position: fixed;
+	text-align: center;
+	width: 200px;
+}
+
+.menu__logo {
+	color: #2a2a2a;
+	text-align: center;
+}
+
+.menu__logo h1 {
+	font-size: 1rem;
+	letter-spacing: 0.5rem;
+	padding: 2% 3% 10%;
+	text-transform: uppercase;
+}
+
+.menu__list ul {
+	list-style: none;
+	padding: 0;
+}
+
+.menu__list li {
+	border-top: 5px solid #ececec;
+}
+
+.menu__switch  {
+	display: none;
+}
+
+.menu__label  {
+	display: none;
+}
+
+.menu__list li a {
+	background-color: #2a2a2a;
+	border-radius: 20px 0px 0px 20px;
+	color: #fcfcfc;
+	display: block;
+	font-weight: 700;
+	padding: 1.5em 1.5em;
+	text-align: center;
+	text-decoration:  none;
+	text-transform: uppercase;
+}
+
+.menu__list li a:hover {
+	margin-left: 1.5%;
+	width: 75%;
+}

@@ -1,0 +1,25 @@
+.about__me {
+	margin-top: 5%;
+	padding-bottom: 3%;
+}
+.about__me--img{
+	border: 1px solid #ececec;
+	border-radius: 50%;
+	padding: 5px;
+	width: 25%;
+}
+
+.about__me p {
+	text-align: justify;
+}
+
+.about__me--icon {
+	width: 5%;
+	border-radius: 5px;
+	margin: 6ch 1ch;
+	filter: saturate(50%);
+}
+
+.about__me--icon:hover {
+	filter: saturate(100%);
+}
